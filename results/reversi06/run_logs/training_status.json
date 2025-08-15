@@ -1,0 +1,48 @@
+{
+    "Reversi": {
+        "checkpoints": [
+            {
+                "steps": 499988,
+                "file_path": "results/reversi06/Reversi/Reversi-499988.onnx",
+                "reward": 0.45934959349593496,
+                "creation_time": 1755249041.387937,
+                "auxillary_file_paths": [
+                    "results/reversi06/Reversi/Reversi-499988.pt"
+                ]
+            },
+            {
+                "steps": 999972,
+                "file_path": "results/reversi06/Reversi/Reversi-999972.onnx",
+                "reward": 0.515748031496063,
+                "creation_time": 1755251085.674449,
+                "auxillary_file_paths": [
+                    "results/reversi06/Reversi/Reversi-999972.pt"
+                ]
+            },
+            {
+                "steps": 1336566,
+                "file_path": "results/reversi06/Reversi/Reversi-1336566.onnx",
+                "reward": 0.06557377049180328,
+                "creation_time": 1755252472.344704,
+                "auxillary_file_paths": [
+                    "results/reversi06/Reversi/Reversi-1336566.pt"
+                ]
+            }
+        ],
+        "elo": 1860.9081972345828,
+        "final_checkpoint": {
+            "steps": 1336566,
+            "file_path": "results/reversi06/Reversi.onnx",
+            "reward": 0.06557377049180328,
+            "creation_time": 1755252472.344704,
+            "auxillary_file_paths": [
+                "results/reversi06/Reversi/Reversi-1336566.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.8.0"
+    }
+}

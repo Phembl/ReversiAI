@@ -1,0 +1,30 @@
+{
+    "Reversi": {
+        "elo": 1197.7895992179692,
+        "checkpoints": [
+            {
+                "steps": 4621,
+                "file_path": "results/reversi03/Reversi/Reversi-4621.onnx",
+                "reward": -0.026143790849673203,
+                "creation_time": 1755243145.703528,
+                "auxillary_file_paths": [
+                    "results/reversi03/Reversi/Reversi-4621.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4621,
+            "file_path": "results/reversi03/Reversi.onnx",
+            "reward": -0.026143790849673203,
+            "creation_time": 1755243145.703528,
+            "auxillary_file_paths": [
+                "results/reversi03/Reversi/Reversi-4621.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.8.0"
+    }
+}
