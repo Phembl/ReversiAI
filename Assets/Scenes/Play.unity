@@ -261,7 +261,7 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   board: {fileID: 1333355729147432456}
-  myPlayer: 2
+  myPlayer: 1
   logDebug: 0
 --- !u!114 &709142149
 MonoBehaviour:
@@ -385,57 +385,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   board: {fileID: 1333355729147432456}
-  player1Behaviour: {fileID: 927315510}
-  player2Behaviour: {fileID: 581913129}
+  player1Behaviour: {fileID: 581913129}
+  player2Behaviour: {fileID: 927315510}
   moveDelaySeconds: 0
   moveTimeout: 2
   autoStart: 1
   autoRestart: 1
   logEveryNGames: 20
---- !u!1 &1919043560
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1919043561}
-  - component: {fileID: 1919043562}
-  m_Layer: 0
-  m_Name: PlayerHuman
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1919043561
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919043560}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1065136772380077748}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1919043562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919043560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9d3b6aaa285243ce8faca510f7aea79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1944994697
 GameObject:
   m_ObjectHideFlags: 0
@@ -867,10 +823,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5545240355972243367}
-  - {fileID: 1919043561}
+  - {fileID: 1821258310}
   - {fileID: 927315511}
   - {fileID: 581913130}
-  - {fileID: 1821258310}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1096744023469240727
