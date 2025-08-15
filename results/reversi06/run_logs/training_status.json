@@ -27,16 +27,25 @@
                 "auxillary_file_paths": [
                     "results/reversi06/Reversi/Reversi-1336566.pt"
                 ]
+            },
+            {
+                "steps": 1341333,
+                "file_path": "results/reversi06/Reversi/Reversi-1341333.onnx",
+                "reward": 0.10625,
+                "creation_time": 1755258689.043217,
+                "auxillary_file_paths": [
+                    "results/reversi06/Reversi/Reversi-1341333.pt"
+                ]
             }
         ],
-        "elo": 1860.9081972345828,
+        "elo": 1867.8438674423767,
         "final_checkpoint": {
-            "steps": 1336566,
+            "steps": 1341333,
             "file_path": "results/reversi06/Reversi.onnx",
-            "reward": 0.06557377049180328,
-            "creation_time": 1755252472.344704,
+            "reward": 0.10625,
+            "creation_time": 1755258689.043217,
             "auxillary_file_paths": [
-                "results/reversi06/Reversi/Reversi-1336566.pt"
+                "results/reversi06/Reversi/Reversi-1341333.pt"
             ]
         }
     },

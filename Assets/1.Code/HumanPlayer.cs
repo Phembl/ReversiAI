@@ -15,9 +15,11 @@ public class HumanPlayer : MonoBehaviour, IPlayer
     public void RequestMove(System.Action<int> onChosen)
     {
         pendingMove = onChosen;
+        /*
         // Wire clicks to this HumanPlayer
         foreach (var t in FindObjectsOfType<TileClickHandler>())
         t.Register(this);
+        */
     }
 
     // Called by your tile click handlers:
